@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Home Manager\n"
 "Report-Msgid-Bugs-To: https://github.com/nix-community/home-manager/issues\n"
-"POT-Creation-Date: 2023-05-27 09:08+0200\n"
+"POT-Creation-Date: 2023-07-30 09:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,12 +44,12 @@ msgstr ""
 msgid "Can't inspect options of a flake configuration"
 msgstr ""
 
-#: home-manager/home-manager:253 home-manager/home-manager:276
-#: home-manager/home-manager:973
+#: home-manager/home-manager:281 home-manager/home-manager:304
+#: home-manager/home-manager:1023
 msgid "%s: unknown option '%s'"
 msgstr ""
 
-#: home-manager/home-manager:258 home-manager/home-manager:974
+#: home-manager/home-manager:286 home-manager/home-manager:1024
 msgid "Run '%s --help' for usage help"
 msgstr ""
 
@@ -91,7 +91,7 @@ msgstr ""
 msgid "Can't instantiate a flake configuration"
 msgstr ""
 
-#: home-manager/home-manager:521
+#: home-manager/home-manager:552
 msgid ""
 "There is %d unread and relevant news item.\n"
 "Read it by running the command \"%s news\"."
@@ -101,77 +101,72 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: home-manager/home-manager:535
+#: home-manager/home-manager:566
 msgid "Unknown \"news.display\" setting \"%s\"."
 msgstr ""
 
-#: home-manager/home-manager:542
+#: home-manager/home-manager:573
 #, sh-format
 msgid "Please set the $EDITOR environment variable"
 msgstr ""
 
-#: home-manager/home-manager:557
+#: home-manager/home-manager:588
 msgid "Cannot run build in read-only directory"
 msgstr ""
 
-#: home-manager/home-manager:641
+#: home-manager/home-manager:666
 msgid "No generation with ID %s"
 msgstr ""
 
-#: home-manager/home-manager:643
+#: home-manager/home-manager:668
 msgid "Cannot remove the current generation %s"
 msgstr ""
 
-#: home-manager/home-manager:645
+#: home-manager/home-manager:670
 msgid "Removing generation %s"
 msgstr ""
 
-#: home-manager/home-manager:664
+#: home-manager/home-manager:689
 msgid "No generations to expire"
 msgstr ""
 
-#: home-manager/home-manager:675
+#: home-manager/home-manager:700
 msgid "No home-manager packages seem to be installed."
 msgstr ""
 
-#. translators: Here "flake" is a noun that refers to the Nix Flakes feature.
-#: home-manager/home-manager:702
-msgid "Sorry, this command is not yet supported in flake setup"
-msgstr ""
-
-#: home-manager/home-manager:739
+#: home-manager/home-manager:781
 msgid "Unknown argument %s"
 msgstr ""
 
-#: home-manager/home-manager:755
+#: home-manager/home-manager:805
 msgid "This will remove Home Manager from your system."
 msgstr ""
 
-#: home-manager/home-manager:758
+#: home-manager/home-manager:808
 msgid "This is a dry run, nothing will actually be uninstalled."
 msgstr ""
 
-#: home-manager/home-manager:762
+#: home-manager/home-manager:812
 msgid "Really uninstall Home Manager?"
 msgstr ""
 
-#: home-manager/home-manager:768
+#: home-manager/home-manager:818
 msgid "Switching to empty Home Manager configuration..."
 msgstr ""
 
-#: home-manager/home-manager:795
+#: home-manager/home-manager:846
 msgid "Yay!"
 msgstr ""
 
-#: home-manager/home-manager:800
+#: home-manager/home-manager:851
 msgid "Home Manager is uninstalled but your home.nix is left untouched."
 msgstr ""
 
-#: home-manager/home-manager:1011
+#: home-manager/home-manager:1063
 msgid "expire-generations expects one argument, got %d."
 msgstr ""
 
-#: home-manager/home-manager:1033
+#: home-manager/home-manager:1085
 msgid "Unknown command: %s"
 msgstr ""
 
